@@ -57,4 +57,9 @@ contract VegaSplitter {
     function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
         return (amount * bps) / 10_000;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
