@@ -46,4 +46,9 @@ contract CrystalEscrow {
     function minOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a < b ? a : b;
     }
+
+    /// @notice Computes a basis point share of an amount.
+    function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
+        return (amount * bps) / 10_000;
+    }
 }
