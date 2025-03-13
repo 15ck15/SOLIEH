@@ -32,4 +32,9 @@ contract CipherSplitter {
         require(okA && okB, "transfer failed");
         emit Distributed(toA, toB);
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
