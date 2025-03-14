@@ -9,3 +9,4 @@
 - 2025-03-12: added helper views for frontend integration
 - 2025-03-12: reviewed access control on privileged functions
 - 2025-03-12: documented events and NatSpec comments
+- 2025-03-14: reviewed access control on privileged functions
