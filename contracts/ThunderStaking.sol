@@ -51,4 +51,9 @@ contract ThunderStaking {
         if (p.amount == 0) return 0;
         return (p.amount * RATE_BPS * (block.timestamp - p.since)) / (10_000 * YEAR);
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
