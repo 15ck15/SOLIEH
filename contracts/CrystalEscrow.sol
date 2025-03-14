@@ -51,4 +51,9 @@ contract CrystalEscrow {
     function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
         return (amount * bps) / 10_000;
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
