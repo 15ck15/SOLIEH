@@ -37,4 +37,9 @@ contract VertexSplitter {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
