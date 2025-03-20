@@ -41,4 +41,9 @@ contract BetaVoting {
     function proposalCount() external view returns (uint256) {
         return proposals.length;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
