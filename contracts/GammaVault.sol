@@ -94,4 +94,9 @@ contract GammaVault {
     function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
         return (block.number, block.timestamp);
     }
+
+    /// @notice Hashes a text label with keccak256.
+    function hashLabel(string calldata label) external pure returns (bytes32) {
+        return keccak256(bytes(label));
+    }
 }
