@@ -14,3 +14,4 @@
 - 2025-03-17: documented events and NatSpec comments
 - 2025-03-21: reviewed reentrancy protections on ETH transfers
 - 2025-03-24: cleaned up naming for consistency
+- 2025-03-24: added libraries for shared math helpers
