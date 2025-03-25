@@ -36,4 +36,9 @@ contract SigmaAllowlist {
     function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
         return (block.number, block.timestamp);
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
