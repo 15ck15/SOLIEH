@@ -66,4 +66,9 @@ contract BoldStaking {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
