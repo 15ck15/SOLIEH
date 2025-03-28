@@ -19,3 +19,4 @@
 - 2025-03-24: cleaned up naming for consistency
 - 2025-03-27: cleaned up naming for consistency
 - 2025-03-28: prepared contracts for testnet deployment
+- 2025-03-28: reviewed reentrancy protections on ETH transfers
