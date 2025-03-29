@@ -29,4 +29,9 @@ contract TitanRegistry {
     function timestampNow() external view returns (uint256) {
         return block.timestamp;
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
