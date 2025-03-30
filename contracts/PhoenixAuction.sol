@@ -48,4 +48,9 @@ contract PhoenixAuction {
         require(ok, "transfer failed");
         emit AuctionEnded(highestBidder, highestBid);
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
