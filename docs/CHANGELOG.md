@@ -22,3 +22,4 @@
 - 2025-03-28: reviewed reentrancy protections on ETH transfers
 - 2025-03-29: prepared contracts for testnet deployment
 - 2025-03-29: tightened require messages across contracts
+- 2025-03-30: cleaned up naming for consistency
