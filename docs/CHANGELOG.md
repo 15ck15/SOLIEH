@@ -27,3 +27,4 @@
 - 2025-04-02: added utility functions for gas-friendly reads
 - 2025-04-03: extended interfaces to cover public API
 - 2025-04-04: added helper views for frontend integration
+- 2025-04-04: added utility functions for gas-friendly reads
