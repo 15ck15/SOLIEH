@@ -29,3 +29,4 @@
 - 2025-04-04: added helper views for frontend integration
 - 2025-04-04: added utility functions for gas-friendly reads
 - 2025-04-05: reviewed reentrancy protections on ETH transfers
+- 2025-04-08: prepared contracts for testnet deployment
