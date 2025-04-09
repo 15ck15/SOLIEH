@@ -30,3 +30,4 @@
 - 2025-04-04: added utility functions for gas-friendly reads
 - 2025-04-05: reviewed reentrancy protections on ETH transfers
 - 2025-04-08: prepared contracts for testnet deployment
+- 2025-04-09: documented events and NatSpec comments
