@@ -32,3 +32,4 @@
 - 2025-04-08: prepared contracts for testnet deployment
 - 2025-04-09: documented events and NatSpec comments
 - 2025-04-10: added helper views for frontend integration
+- 2025-04-11: tightened require messages across contracts
