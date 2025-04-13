@@ -56,4 +56,9 @@ contract MetaStaking {
     function contractName() external pure returns (string memory) {
         return "MetaStaking";
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
