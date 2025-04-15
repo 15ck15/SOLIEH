@@ -34,3 +34,4 @@
 - 2025-04-10: added helper views for frontend integration
 - 2025-04-11: tightened require messages across contracts
 - 2025-04-14: tightened require messages across contracts
+- 2025-04-15: extended interfaces to cover public API
