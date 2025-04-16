@@ -51,4 +51,9 @@ contract SwiftStaking {
         if (p.amount == 0) return 0;
         return (p.amount * RATE_BPS * (block.timestamp - p.since)) / (10_000 * YEAR);
     }
+
+    /// @notice Converts days to seconds.
+    function daysToSeconds(uint256 numDays) external pure returns (uint256) {
+        return numDays * 1 days;
+    }
 }
