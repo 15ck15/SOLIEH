@@ -53,4 +53,9 @@ contract VectorAuction {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
