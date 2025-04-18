@@ -86,4 +86,9 @@ contract ThunderStaking {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
