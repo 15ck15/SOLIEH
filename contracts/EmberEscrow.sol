@@ -86,4 +86,9 @@ contract EmberEscrow {
     function timestampNow() external view returns (uint256) {
         return block.timestamp;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "EmberEscrow";
+    }
 }
