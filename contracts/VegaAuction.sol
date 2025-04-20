@@ -58,4 +58,9 @@ contract VegaAuction {
     function domainSeparator() external view returns (bytes32) {
         return keccak256(abi.encode(block.chainid, address(this)));
     }
+
+    /// @notice Computes a basis point share of an amount.
+    function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
+        return (amount * bps) / 10_000;
+    }
 }
