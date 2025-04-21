@@ -38,3 +38,4 @@
 - 2025-04-17: cleaned up naming for consistency
 - 2025-04-17: added utility functions for gas-friendly reads
 - 2025-04-18: reviewed access control on privileged functions
+- 2025-04-21: cleaned up naming for consistency
