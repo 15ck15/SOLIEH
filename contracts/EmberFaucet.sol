@@ -39,4 +39,9 @@ contract EmberFaucet {
         require(msg.sender == owner, "not owner");
         dripAmount = amount;
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
