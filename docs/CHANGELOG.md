@@ -43,3 +43,4 @@
 - 2025-04-22: tightened require messages across contracts
 - 2025-04-23: extended interfaces to cover public API
 - 2025-04-25: tightened require messages across contracts
+- 2025-04-29: extended interfaces to cover public API
