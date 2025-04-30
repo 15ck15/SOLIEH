@@ -24,4 +24,9 @@ contract OrionRegistry {
         ownerOf[key] = to;
         emit Transferred(key, msg.sender, to);
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
