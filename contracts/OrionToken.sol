@@ -54,4 +54,9 @@ contract OrionToken {
         balanceOf[to] += value;
         emit Transfer(address(0), to, value);
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
