@@ -21,4 +21,9 @@ contract AmberCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
