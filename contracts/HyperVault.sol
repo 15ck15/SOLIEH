@@ -34,4 +34,9 @@ contract HyperVault {
         require(ok, "transfer failed");
         emit Withdrawn(msg.sender, amount);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "HyperVault";
+    }
 }
