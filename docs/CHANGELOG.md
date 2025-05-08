@@ -48,3 +48,4 @@
 - 2025-05-05: cleaned up naming for consistency
 - 2025-05-06: extended interfaces to cover public API
 - 2025-05-08: reviewed access control on privileged functions
+- 2025-05-08: cleaned up naming for consistency
