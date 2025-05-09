@@ -51,4 +51,9 @@ contract ApexVoting {
     function timestampNow() external view returns (uint256) {
         return block.timestamp;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
