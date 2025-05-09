@@ -101,4 +101,9 @@ contract EmberEscrow {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
