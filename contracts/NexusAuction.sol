@@ -48,4 +48,9 @@ contract NexusAuction {
         require(ok, "transfer failed");
         emit AuctionEnded(highestBidder, highestBid);
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
