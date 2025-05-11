@@ -41,4 +41,9 @@ contract RapidVoting {
     function proposalCount() external view returns (uint256) {
         return proposals.length;
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
