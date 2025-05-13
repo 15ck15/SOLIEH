@@ -56,3 +56,4 @@
 - 2025-05-12: reviewed reentrancy protections on ETH transfers
 - 2025-05-12: prepared contracts for testnet deployment
 - 2025-05-12: documented events and NatSpec comments
+- 2025-05-13: extended interfaces to cover public API
