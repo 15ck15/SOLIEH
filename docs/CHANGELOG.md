@@ -58,3 +58,4 @@
 - 2025-05-12: documented events and NatSpec comments
 - 2025-05-13: extended interfaces to cover public API
 - 2025-05-14: added libraries for shared math helpers
+- 2025-05-15: tightened require messages across contracts
