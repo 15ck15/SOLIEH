@@ -60,3 +60,4 @@
 - 2025-05-14: added libraries for shared math helpers
 - 2025-05-15: tightened require messages across contracts
 - 2025-05-16: tightened require messages across contracts
+- 2025-05-16: added utility functions for gas-friendly reads
