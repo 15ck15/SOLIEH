@@ -56,4 +56,9 @@ contract NobleVoting {
     function contractName() external pure returns (string memory) {
         return "NobleVoting";
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
