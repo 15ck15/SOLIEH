@@ -38,4 +38,9 @@ contract PixelVesting {
         require(ok, "transfer failed");
         emit TokensReleased(amount);
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
