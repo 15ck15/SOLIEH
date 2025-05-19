@@ -24,4 +24,9 @@ contract BoldRegistry {
         ownerOf[key] = to;
         emit Transferred(key, msg.sender, to);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "BoldRegistry";
+    }
 }
