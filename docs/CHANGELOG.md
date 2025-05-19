@@ -61,3 +61,4 @@
 - 2025-05-15: tightened require messages across contracts
 - 2025-05-16: tightened require messages across contracts
 - 2025-05-16: added utility functions for gas-friendly reads
+- 2025-05-19: reviewed reentrancy protections on ETH transfers
