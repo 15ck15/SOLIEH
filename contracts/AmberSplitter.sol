@@ -32,4 +32,9 @@ contract AmberSplitter {
         require(okA && okB, "transfer failed");
         emit Distributed(toA, toB);
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
