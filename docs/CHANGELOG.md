@@ -63,3 +63,4 @@
 - 2025-05-16: added utility functions for gas-friendly reads
 - 2025-05-19: reviewed reentrancy protections on ETH transfers
 - 2025-05-21: documented events and NatSpec comments
+- 2025-05-21: added helper views for frontend integration
