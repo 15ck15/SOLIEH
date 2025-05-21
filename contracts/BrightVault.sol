@@ -44,4 +44,9 @@ contract BrightVault {
     function contractName() external pure returns (string memory) {
         return "BrightVault";
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
