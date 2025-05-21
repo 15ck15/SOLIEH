@@ -31,4 +31,9 @@ contract DragonCounter {
     function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a > b ? a : b;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
