@@ -67,3 +67,4 @@
 - 2025-05-21: added utility functions for gas-friendly reads
 - 2025-05-22: documented events and NatSpec comments
 - 2025-05-23: documented events and NatSpec comments
+- 2025-05-23: extended interfaces to cover public API
