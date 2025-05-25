@@ -69,3 +69,4 @@
 - 2025-05-23: documented events and NatSpec comments
 - 2025-05-23: extended interfaces to cover public API
 - 2025-05-25: tightened require messages across contracts
+- 2025-05-25: reviewed reentrancy protections on ETH transfers
