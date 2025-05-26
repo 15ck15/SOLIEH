@@ -72,3 +72,4 @@
 - 2025-05-25: reviewed reentrancy protections on ETH transfers
 - 2025-05-26: reviewed access control on privileged functions
 - 2025-05-26: reviewed access control on privileged functions
+- 2025-05-26: added helper views for frontend integration
