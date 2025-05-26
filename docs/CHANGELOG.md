@@ -71,3 +71,4 @@
 - 2025-05-25: tightened require messages across contracts
 - 2025-05-25: reviewed reentrancy protections on ETH transfers
 - 2025-05-26: reviewed access control on privileged functions
+- 2025-05-26: reviewed access control on privileged functions
