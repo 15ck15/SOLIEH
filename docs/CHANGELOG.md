@@ -76,3 +76,4 @@
 - 2025-05-27: reviewed access control on privileged functions
 - 2025-05-27: added helper views for frontend integration
 - 2025-05-28: tightened require messages across contracts
+- 2025-05-29: tightened require messages across contracts
