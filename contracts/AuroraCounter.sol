@@ -21,4 +21,9 @@ contract AuroraCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "AuroraCounter";
+    }
 }
