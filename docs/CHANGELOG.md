@@ -77,3 +77,4 @@
 - 2025-05-27: added helper views for frontend integration
 - 2025-05-28: tightened require messages across contracts
 - 2025-05-29: tightened require messages across contracts
+- 2025-05-30: documented events and NatSpec comments
