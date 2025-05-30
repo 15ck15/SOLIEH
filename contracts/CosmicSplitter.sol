@@ -42,4 +42,9 @@ contract CosmicSplitter {
     function chainId() external view returns (uint256) {
         return block.chainid;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
