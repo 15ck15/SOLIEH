@@ -91,4 +91,9 @@ contract ThunderStaking {
     function isContractAddress(address account) external view returns (bool) {
         return account.code.length > 0;
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
