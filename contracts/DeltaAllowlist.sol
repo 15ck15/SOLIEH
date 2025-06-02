@@ -31,4 +31,9 @@ contract DeltaAllowlist {
         emit OwnershipTransferred(owner, newOwner);
         owner = newOwner;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "DeltaAllowlist";
+    }
 }
