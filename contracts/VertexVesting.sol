@@ -43,4 +43,9 @@ contract VertexVesting {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
