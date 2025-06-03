@@ -39,4 +39,9 @@ contract TitanRegistry {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
