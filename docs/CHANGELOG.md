@@ -78,3 +78,4 @@
 - 2025-05-28: tightened require messages across contracts
 - 2025-05-29: tightened require messages across contracts
 - 2025-05-30: documented events and NatSpec comments
+- 2025-06-03: added utility functions for gas-friendly reads
