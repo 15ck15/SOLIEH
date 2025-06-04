@@ -81,3 +81,4 @@
 - 2025-06-03: added utility functions for gas-friendly reads
 - 2025-06-03: reviewed reentrancy protections on ETH transfers
 - 2025-06-03: added helper views for frontend integration
+- 2025-06-04: extended interfaces to cover public API
