@@ -21,4 +21,9 @@ contract IronCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Hashes a text label with keccak256.
+    function hashLabel(string calldata label) external pure returns (bytes32) {
+        return keccak256(bytes(label));
+    }
 }
