@@ -82,3 +82,4 @@
 - 2025-06-03: reviewed reentrancy protections on ETH transfers
 - 2025-06-03: added helper views for frontend integration
 - 2025-06-04: extended interfaces to cover public API
+- 2025-06-05: cleaned up naming for consistency
