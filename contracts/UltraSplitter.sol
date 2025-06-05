@@ -37,4 +37,9 @@ contract UltraSplitter {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
