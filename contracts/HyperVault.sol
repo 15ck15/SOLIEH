@@ -39,4 +39,9 @@ contract HyperVault {
     function contractName() external pure returns (string memory) {
         return "HyperVault";
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
