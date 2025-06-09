@@ -84,3 +84,4 @@
 - 2025-06-04: extended interfaces to cover public API
 - 2025-06-05: cleaned up naming for consistency
 - 2025-06-07: added helper views for frontend integration
+- 2025-06-09: added helper views for frontend integration
