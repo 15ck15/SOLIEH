@@ -88,3 +88,4 @@
 - 2025-06-09: documented events and NatSpec comments
 - 2025-06-09: reviewed reentrancy protections on ETH transfers
 - 2025-06-10: extended interfaces to cover public API
+- 2025-06-10: documented events and NatSpec comments
