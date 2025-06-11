@@ -54,4 +54,9 @@ contract VectorFaucet {
     function contractName() external pure returns (string memory) {
         return "VectorFaucet";
     }
+
+    /// @notice Returns the larger of two values.
+    function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a > b ? a : b;
+    }
 }
