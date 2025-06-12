@@ -61,4 +61,9 @@ contract NobleVoting {
     function chainId() external view returns (uint256) {
         return block.chainid;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
