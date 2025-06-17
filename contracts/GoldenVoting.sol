@@ -46,4 +46,9 @@ contract GoldenVoting {
     function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
         return (block.number, block.timestamp);
     }
+
+    /// @notice Computes a basis point share of an amount.
+    function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
+        return (amount * bps) / 10_000;
+    }
 }
