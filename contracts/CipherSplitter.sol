@@ -62,4 +62,9 @@ contract CipherSplitter {
     function minOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a < b ? a : b;
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
