@@ -92,3 +92,4 @@
 - 2025-06-17: prepared contracts for testnet deployment
 - 2025-06-17: prepared contracts for testnet deployment
 - 2025-06-18: reviewed reentrancy protections on ETH transfers
+- 2025-06-19: documented events and NatSpec comments
