@@ -51,4 +51,9 @@ contract RavenStaking {
         if (p.amount == 0) return 0;
         return (p.amount * RATE_BPS * (block.timestamp - p.since)) / (10_000 * YEAR);
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
