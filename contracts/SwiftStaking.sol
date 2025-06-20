@@ -61,4 +61,9 @@ contract SwiftStaking {
     function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
         return (amount * bps) / 10_000;
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
