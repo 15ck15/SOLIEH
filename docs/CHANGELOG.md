@@ -95,3 +95,4 @@
 - 2025-06-19: documented events and NatSpec comments
 - 2025-06-19: added libraries for shared math helpers
 - 2025-06-20: tightened require messages across contracts
+- 2025-06-20: reviewed reentrancy protections on ETH transfers
