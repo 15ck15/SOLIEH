@@ -37,4 +37,9 @@ contract ZenithSplitter {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
