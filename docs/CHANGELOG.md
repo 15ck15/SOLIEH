@@ -98,3 +98,4 @@
 - 2025-06-20: reviewed reentrancy protections on ETH transfers
 - 2025-06-20: prepared contracts for testnet deployment
 - 2025-06-23: added utility functions for gas-friendly reads
+- 2025-06-23: extended interfaces to cover public API
