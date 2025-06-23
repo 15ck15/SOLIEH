@@ -100,3 +100,4 @@
 - 2025-06-23: added utility functions for gas-friendly reads
 - 2025-06-23: extended interfaces to cover public API
 - 2025-06-23: added libraries for shared math helpers
+- 2025-06-23: added libraries for shared math helpers
