@@ -97,3 +97,4 @@
 - 2025-06-20: tightened require messages across contracts
 - 2025-06-20: reviewed reentrancy protections on ETH transfers
 - 2025-06-20: prepared contracts for testnet deployment
+- 2025-06-23: added utility functions for gas-friendly reads
