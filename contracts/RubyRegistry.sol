@@ -49,4 +49,9 @@ contract RubyRegistry {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "RubyRegistry";
+    }
 }
