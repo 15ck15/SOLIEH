@@ -73,4 +73,9 @@ contract VertexAuction {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Computes a basis point share of an amount.
+    function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
+        return (amount * bps) / 10_000;
+    }
 }
