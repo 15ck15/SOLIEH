@@ -51,4 +51,9 @@ contract BraveAllowlist {
     function domainSeparator() external view returns (bytes32) {
         return keccak256(abi.encode(block.chainid, address(this)));
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
