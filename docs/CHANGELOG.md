@@ -104,3 +104,4 @@
 - 2025-06-25: reviewed reentrancy protections on ETH transfers
 - 2025-06-27: added helper views for frontend integration
 - 2025-06-30: added libraries for shared math helpers
+- 2025-07-03: added helper views for frontend integration
