@@ -106,3 +106,4 @@
 - 2025-06-30: added libraries for shared math helpers
 - 2025-07-03: added helper views for frontend integration
 - 2025-07-05: added helper views for frontend integration
+- 2025-07-06: tightened require messages across contracts
