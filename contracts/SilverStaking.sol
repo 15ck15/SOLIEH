@@ -56,4 +56,9 @@ contract SilverStaking {
     function contractName() external pure returns (string memory) {
         return "SilverStaking";
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
