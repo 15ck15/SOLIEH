@@ -54,4 +54,9 @@ contract MetaToken {
         balanceOf[to] += value;
         emit Transfer(address(0), to, value);
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
