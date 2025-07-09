@@ -61,4 +61,9 @@ contract SilverStaking {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
