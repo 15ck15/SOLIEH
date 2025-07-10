@@ -112,3 +112,4 @@
 - 2025-07-08: added libraries for shared math helpers
 - 2025-07-08: reviewed access control on privileged functions
 - 2025-07-09: prepared contracts for testnet deployment
+- 2025-07-10: added utility functions for gas-friendly reads
