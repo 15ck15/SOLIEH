@@ -106,4 +106,9 @@ contract ThunderStaking {
     function contractName() external pure returns (string memory) {
         return "ThunderStaking";
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
