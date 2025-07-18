@@ -119,3 +119,4 @@
 - 2025-07-14: reviewed reentrancy protections on ETH transfers
 - 2025-07-15: documented events and NatSpec comments
 - 2025-07-18: added libraries for shared math helpers
+- 2025-07-18: documented events and NatSpec comments
