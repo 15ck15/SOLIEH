@@ -118,3 +118,4 @@
 - 2025-07-11: tightened require messages across contracts
 - 2025-07-14: reviewed reentrancy protections on ETH transfers
 - 2025-07-15: documented events and NatSpec comments
+- 2025-07-18: added libraries for shared math helpers
