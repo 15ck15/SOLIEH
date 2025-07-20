@@ -121,3 +121,4 @@
 - 2025-07-18: added libraries for shared math helpers
 - 2025-07-18: documented events and NatSpec comments
 - 2025-07-19: documented events and NatSpec comments
+- 2025-07-20: added helper views for frontend integration
