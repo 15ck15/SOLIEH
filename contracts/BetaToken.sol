@@ -54,4 +54,9 @@ contract BetaToken {
         balanceOf[to] += value;
         emit Transfer(address(0), to, value);
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
