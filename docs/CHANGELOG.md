@@ -125,3 +125,4 @@
 - 2025-07-21: reviewed reentrancy protections on ETH transfers
 - 2025-07-22: prepared contracts for testnet deployment
 - 2025-07-22: added utility functions for gas-friendly reads
+- 2025-07-26: cleaned up naming for consistency
