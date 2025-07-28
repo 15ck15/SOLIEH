@@ -51,4 +51,9 @@ contract BoldVoting {
     function domainSeparator() external view returns (bytes32) {
         return keccak256(abi.encode(block.chainid, address(this)));
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
