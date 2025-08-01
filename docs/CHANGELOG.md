@@ -129,3 +129,4 @@
 - 2025-07-29: cleaned up naming for consistency
 - 2025-07-31: reviewed access control on privileged functions
 - 2025-07-31: added utility functions for gas-friendly reads
+- 2025-08-01: reviewed access control on privileged functions
