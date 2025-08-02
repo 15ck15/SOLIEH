@@ -131,3 +131,4 @@
 - 2025-07-31: added utility functions for gas-friendly reads
 - 2025-08-01: reviewed access control on privileged functions
 - 2025-08-01: reviewed access control on privileged functions
+- 2025-08-02: extended interfaces to cover public API
