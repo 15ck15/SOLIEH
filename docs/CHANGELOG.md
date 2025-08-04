@@ -134,3 +134,4 @@
 - 2025-08-02: extended interfaces to cover public API
 - 2025-08-04: added utility functions for gas-friendly reads
 - 2025-08-04: reviewed access control on privileged functions
+- 2025-08-04: added helper views for frontend integration
