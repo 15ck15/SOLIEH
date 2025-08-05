@@ -136,3 +136,4 @@
 - 2025-08-04: reviewed access control on privileged functions
 - 2025-08-04: added helper views for frontend integration
 - 2025-08-05: documented events and NatSpec comments
+- 2025-08-05: cleaned up naming for consistency
