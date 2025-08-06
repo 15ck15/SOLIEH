@@ -138,3 +138,4 @@
 - 2025-08-05: documented events and NatSpec comments
 - 2025-08-05: cleaned up naming for consistency
 - 2025-08-06: reviewed access control on privileged functions
+- 2025-08-06: reviewed access control on privileged functions
