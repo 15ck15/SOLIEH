@@ -59,4 +59,9 @@ contract BetaToken {
     function gasLeftNow() external view returns (uint256) {
         return gasleft();
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
