@@ -53,4 +53,9 @@ contract TitanVesting {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "TitanVesting";
+    }
 }
