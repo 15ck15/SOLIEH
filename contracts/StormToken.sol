@@ -54,4 +54,9 @@ contract StormToken {
         balanceOf[to] += value;
         emit Transfer(address(0), to, value);
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
