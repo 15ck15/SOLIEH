@@ -140,3 +140,4 @@
 - 2025-08-06: reviewed access control on privileged functions
 - 2025-08-06: reviewed access control on privileged functions
 - 2025-08-08: added utility functions for gas-friendly reads
+- 2025-08-11: added libraries for shared math helpers
