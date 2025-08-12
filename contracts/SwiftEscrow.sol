@@ -41,4 +41,9 @@ contract SwiftEscrow {
         require(ok, "transfer failed");
         emit Refunded(payer, amount);
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
