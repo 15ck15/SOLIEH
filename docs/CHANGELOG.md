@@ -144,3 +144,4 @@
 - 2025-08-11: tightened require messages across contracts
 - 2025-08-12: added utility functions for gas-friendly reads
 - 2025-08-13: added utility functions for gas-friendly reads
+- 2025-08-15: prepared contracts for testnet deployment
