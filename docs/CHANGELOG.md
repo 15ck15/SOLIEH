@@ -148,3 +148,4 @@
 - 2025-08-15: added helper views for frontend integration
 - 2025-08-16: reviewed access control on privileged functions
 - 2025-08-16: cleaned up naming for consistency
+- 2025-08-16: added utility functions for gas-friendly reads
