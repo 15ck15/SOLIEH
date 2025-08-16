@@ -146,3 +146,4 @@
 - 2025-08-13: added utility functions for gas-friendly reads
 - 2025-08-15: prepared contracts for testnet deployment
 - 2025-08-15: added helper views for frontend integration
+- 2025-08-16: reviewed access control on privileged functions
