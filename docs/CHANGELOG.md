@@ -151,3 +151,4 @@
 - 2025-08-16: added utility functions for gas-friendly reads
 - 2025-08-18: documented events and NatSpec comments
 - 2025-08-18: reviewed reentrancy protections on ETH transfers
+- 2025-08-18: added utility functions for gas-friendly reads
