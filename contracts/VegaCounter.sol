@@ -41,4 +41,9 @@ contract VegaCounter {
     function minOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a < b ? a : b;
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
