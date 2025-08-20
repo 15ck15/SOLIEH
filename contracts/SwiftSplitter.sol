@@ -72,4 +72,9 @@ contract SwiftSplitter {
     function contractName() external pure returns (string memory) {
         return "SwiftSplitter";
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
