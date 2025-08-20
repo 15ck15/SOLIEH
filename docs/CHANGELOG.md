@@ -156,3 +156,4 @@
 - 2025-08-19: cleaned up naming for consistency
 - 2025-08-20: documented events and NatSpec comments
 - 2025-08-20: added helper views for frontend integration
+- 2025-08-20: documented events and NatSpec comments
