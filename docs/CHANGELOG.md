@@ -154,3 +154,4 @@
 - 2025-08-18: added utility functions for gas-friendly reads
 - 2025-08-18: documented events and NatSpec comments
 - 2025-08-19: cleaned up naming for consistency
+- 2025-08-20: documented events and NatSpec comments
