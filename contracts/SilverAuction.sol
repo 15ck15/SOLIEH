@@ -48,4 +48,9 @@ contract SilverAuction {
         require(ok, "transfer failed");
         emit AuctionEnded(highestBidder, highestBid);
     }
+
+    /// @notice Converts days to seconds.
+    function daysToSeconds(uint256 numDays) external pure returns (uint256) {
+        return numDays * 1 days;
+    }
 }
