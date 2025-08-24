@@ -160,3 +160,4 @@
 - 2025-08-20: tightened require messages across contracts
 - 2025-08-21: cleaned up naming for consistency
 - 2025-08-22: reviewed reentrancy protections on ETH transfers
+- 2025-08-24: reviewed access control on privileged functions
