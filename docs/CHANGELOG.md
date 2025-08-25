@@ -161,3 +161,4 @@
 - 2025-08-21: cleaned up naming for consistency
 - 2025-08-22: reviewed reentrancy protections on ETH transfers
 - 2025-08-24: reviewed access control on privileged functions
+- 2025-08-25: documented events and NatSpec comments
