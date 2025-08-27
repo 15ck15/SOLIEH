@@ -31,4 +31,9 @@ contract TitanAllowlist {
         emit OwnershipTransferred(owner, newOwner);
         owner = newOwner;
     }
+
+    /// @notice Returns the larger of two values.
+    function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a > b ? a : b;
+    }
 }
