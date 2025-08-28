@@ -162,3 +162,4 @@
 - 2025-08-22: reviewed reentrancy protections on ETH transfers
 - 2025-08-24: reviewed access control on privileged functions
 - 2025-08-25: documented events and NatSpec comments
+- 2025-08-28: prepared contracts for testnet deployment
