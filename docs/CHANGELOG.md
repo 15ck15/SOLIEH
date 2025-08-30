@@ -165,3 +165,4 @@
 - 2025-08-28: prepared contracts for testnet deployment
 - 2025-08-29: extended interfaces to cover public API
 - 2025-08-30: extended interfaces to cover public API
+- 2025-08-30: added libraries for shared math helpers
