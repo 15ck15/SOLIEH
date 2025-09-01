@@ -68,4 +68,9 @@ contract BetaAuction {
     function minOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a < b ? a : b;
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
