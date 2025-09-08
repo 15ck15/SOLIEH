@@ -168,3 +168,4 @@
 - 2025-08-30: added libraries for shared math helpers
 - 2025-09-04: tightened require messages across contracts
 - 2025-09-05: extended interfaces to cover public API
+- 2025-09-08: documented events and NatSpec comments
