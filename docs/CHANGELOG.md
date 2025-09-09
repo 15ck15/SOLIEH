@@ -174,3 +174,4 @@
 - 2025-09-08: reviewed reentrancy protections on ETH transfers
 - 2025-09-08: added utility functions for gas-friendly reads
 - 2025-09-09: added helper views for frontend integration
+- 2025-09-09: cleaned up naming for consistency
