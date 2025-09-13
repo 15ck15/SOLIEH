@@ -41,4 +41,9 @@ contract BoldEscrow {
         require(ok, "transfer failed");
         emit Refunded(payer, amount);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "BoldEscrow";
+    }
 }
