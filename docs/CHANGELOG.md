@@ -177,3 +177,4 @@
 - 2025-09-09: cleaned up naming for consistency
 - 2025-09-10: added utility functions for gas-friendly reads
 - 2025-09-12: reviewed access control on privileged functions
+- 2025-09-13: added utility functions for gas-friendly reads
