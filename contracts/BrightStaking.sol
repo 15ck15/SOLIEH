@@ -51,4 +51,9 @@ contract BrightStaking {
         if (p.amount == 0) return 0;
         return (p.amount * RATE_BPS * (block.timestamp - p.since)) / (10_000 * YEAR);
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
