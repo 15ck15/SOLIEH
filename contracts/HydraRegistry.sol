@@ -24,4 +24,9 @@ contract HydraRegistry {
         ownerOf[key] = to;
         emit Transferred(key, msg.sender, to);
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
