@@ -54,4 +54,9 @@ contract NeonToken {
         balanceOf[to] += value;
         emit Transfer(address(0), to, value);
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
