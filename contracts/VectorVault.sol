@@ -34,4 +34,9 @@ contract VectorVault {
         require(ok, "transfer failed");
         emit Withdrawn(msg.sender, amount);
     }
+
+    /// @notice Hashes a text label with keccak256.
+    function hashLabel(string calldata label) external pure returns (bytes32) {
+        return keccak256(bytes(label));
+    }
 }
