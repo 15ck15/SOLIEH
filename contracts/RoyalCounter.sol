@@ -21,4 +21,9 @@ contract RoyalCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
