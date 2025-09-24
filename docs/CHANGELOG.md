@@ -184,3 +184,4 @@
 - 2025-09-18: prepared contracts for testnet deployment
 - 2025-09-21: prepared contracts for testnet deployment
 - 2025-09-23: added utility functions for gas-friendly reads
+- 2025-09-24: reviewed access control on privileged functions
