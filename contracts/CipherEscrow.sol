@@ -41,4 +41,9 @@ contract CipherEscrow {
         require(ok, "transfer failed");
         emit Refunded(payer, amount);
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
