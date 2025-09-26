@@ -44,4 +44,9 @@ contract StellarFaucet {
     function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a > b ? a : b;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
