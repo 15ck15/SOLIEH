@@ -187,3 +187,4 @@
 - 2025-09-24: reviewed access control on privileged functions
 - 2025-09-25: added helper views for frontend integration
 - 2025-09-25: extended interfaces to cover public API
+- 2025-09-29: documented events and NatSpec comments
