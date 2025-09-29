@@ -32,4 +32,9 @@ contract StellarSplitter {
         require(okA && okB, "transfer failed");
         emit Distributed(toA, toB);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "StellarSplitter";
+    }
 }
