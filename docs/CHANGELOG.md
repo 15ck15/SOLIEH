@@ -190,3 +190,4 @@
 - 2025-09-29: documented events and NatSpec comments
 - 2025-09-30: documented events and NatSpec comments
 - 2025-09-30: added helper views for frontend integration
+- 2025-09-30: reviewed reentrancy protections on ETH transfers
