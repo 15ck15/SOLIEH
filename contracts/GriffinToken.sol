@@ -79,4 +79,9 @@ contract GriffinToken {
     function gasLeftNow() external view returns (uint256) {
         return gasleft();
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "GriffinToken";
+    }
 }
