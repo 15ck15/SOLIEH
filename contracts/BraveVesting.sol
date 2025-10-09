@@ -43,4 +43,9 @@ contract BraveVesting {
     function chainId() external view returns (uint256) {
         return block.chainid;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "BraveVesting";
+    }
 }
