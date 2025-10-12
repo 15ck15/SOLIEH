@@ -54,4 +54,9 @@ contract ZenithToken {
         balanceOf[to] += value;
         emit Transfer(address(0), to, value);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "ZenithToken";
+    }
 }
