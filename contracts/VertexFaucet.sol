@@ -39,4 +39,9 @@ contract VertexFaucet {
         require(msg.sender == owner, "not owner");
         dripAmount = amount;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "VertexFaucet";
+    }
 }
