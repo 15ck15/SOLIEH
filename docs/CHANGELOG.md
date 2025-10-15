@@ -198,3 +198,4 @@
 - 2025-10-10: added helper views for frontend integration
 - 2025-10-13: added helper views for frontend integration
 - 2025-10-14: documented events and NatSpec comments
+- 2025-10-15: added utility functions for gas-friendly reads
