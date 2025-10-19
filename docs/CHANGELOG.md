@@ -201,3 +201,4 @@
 - 2025-10-15: added utility functions for gas-friendly reads
 - 2025-10-16: added utility functions for gas-friendly reads
 - 2025-10-17: added libraries for shared math helpers
+- 2025-10-19: documented events and NatSpec comments
