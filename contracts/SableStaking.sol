@@ -51,4 +51,9 @@ contract SableStaking {
         if (p.amount == 0) return 0;
         return (p.amount * RATE_BPS * (block.timestamp - p.since)) / (10_000 * YEAR);
     }
+
+    /// @notice Returns the smaller of two values.
+    function minOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a < b ? a : b;
+    }
 }
