@@ -203,3 +203,4 @@
 - 2025-10-17: added libraries for shared math helpers
 - 2025-10-19: documented events and NatSpec comments
 - 2025-10-21: documented events and NatSpec comments
+- 2025-10-23: added libraries for shared math helpers
