@@ -29,4 +29,9 @@ contract MatrixRegistry {
     function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
         return (block.number, block.timestamp);
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
