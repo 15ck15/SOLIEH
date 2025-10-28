@@ -89,4 +89,9 @@ contract RubyVault {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
