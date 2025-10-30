@@ -208,3 +208,4 @@
 - 2025-10-26: prepared contracts for testnet deployment
 - 2025-10-28: added libraries for shared math helpers
 - 2025-10-29: documented events and NatSpec comments
+- 2025-10-30: prepared contracts for testnet deployment
