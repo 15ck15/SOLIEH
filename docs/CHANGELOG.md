@@ -210,3 +210,4 @@
 - 2025-10-29: documented events and NatSpec comments
 - 2025-10-30: prepared contracts for testnet deployment
 - 2025-10-30: extended interfaces to cover public API
+- 2025-10-31: reviewed access control on privileged functions
