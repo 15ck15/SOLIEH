@@ -34,4 +34,9 @@ contract AlphaVault {
         require(ok, "transfer failed");
         emit Withdrawn(msg.sender, amount);
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
