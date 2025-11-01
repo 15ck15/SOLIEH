@@ -211,3 +211,4 @@
 - 2025-10-30: prepared contracts for testnet deployment
 - 2025-10-30: extended interfaces to cover public API
 - 2025-10-31: reviewed access control on privileged functions
+- 2025-11-01: added utility functions for gas-friendly reads
