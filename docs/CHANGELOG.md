@@ -214,3 +214,4 @@
 - 2025-11-01: added utility functions for gas-friendly reads
 - 2025-11-01: documented events and NatSpec comments
 - 2025-11-04: extended interfaces to cover public API
+- 2025-11-05: tightened require messages across contracts
