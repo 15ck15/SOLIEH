@@ -21,4 +21,9 @@ contract BraveCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
