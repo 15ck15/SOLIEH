@@ -216,3 +216,4 @@
 - 2025-11-04: extended interfaces to cover public API
 - 2025-11-05: tightened require messages across contracts
 - 2025-11-07: tightened require messages across contracts
+- 2025-11-08: added libraries for shared math helpers
