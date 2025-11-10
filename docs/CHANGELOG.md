@@ -217,3 +217,4 @@
 - 2025-11-05: tightened require messages across contracts
 - 2025-11-07: tightened require messages across contracts
 - 2025-11-08: added libraries for shared math helpers
+- 2025-11-10: added helper views for frontend integration
