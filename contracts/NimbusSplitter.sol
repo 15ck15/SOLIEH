@@ -42,4 +42,9 @@ contract NimbusSplitter {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Returns the larger of two values.
+    function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a > b ? a : b;
+    }
 }
