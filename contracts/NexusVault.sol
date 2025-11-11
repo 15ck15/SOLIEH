@@ -39,4 +39,9 @@ contract NexusVault {
     function gasLeftNow() external view returns (uint256) {
         return gasleft();
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
