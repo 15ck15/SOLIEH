@@ -39,4 +39,9 @@ contract BetaFaucet {
         require(msg.sender == owner, "not owner");
         dripAmount = amount;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
