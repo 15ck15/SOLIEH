@@ -31,4 +31,9 @@ contract PixelAllowlist {
         emit OwnershipTransferred(owner, newOwner);
         owner = newOwner;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
