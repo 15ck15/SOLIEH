@@ -221,3 +221,4 @@
 - 2025-11-11: added helper views for frontend integration
 - 2025-11-11: tightened require messages across contracts
 - 2025-11-12: reviewed reentrancy protections on ETH transfers
+- 2025-11-13: added libraries for shared math helpers
