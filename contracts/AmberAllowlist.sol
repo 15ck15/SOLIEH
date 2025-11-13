@@ -46,4 +46,9 @@ contract AmberAllowlist {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Returns the smaller of two values.
+    function minOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a < b ? a : b;
+    }
 }
