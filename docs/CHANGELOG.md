@@ -222,3 +222,4 @@
 - 2025-11-11: tightened require messages across contracts
 - 2025-11-12: reviewed reentrancy protections on ETH transfers
 - 2025-11-13: added libraries for shared math helpers
+- 2025-11-13: documented events and NatSpec comments
