@@ -226,3 +226,4 @@
 - 2025-11-14: added libraries for shared math helpers
 - 2025-11-17: prepared contracts for testnet deployment
 - 2025-11-19: reviewed access control on privileged functions
+- 2025-11-19: documented events and NatSpec comments
