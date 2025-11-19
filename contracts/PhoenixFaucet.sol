@@ -44,4 +44,9 @@ contract PhoenixFaucet {
     function isContractAddress(address account) external view returns (bool) {
         return account.code.length > 0;
     }
+
+    /// @notice Hashes a text label with keccak256.
+    function hashLabel(string calldata label) external pure returns (bytes32) {
+        return keccak256(bytes(label));
+    }
 }
