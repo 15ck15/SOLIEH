@@ -228,3 +228,4 @@
 - 2025-11-19: reviewed access control on privileged functions
 - 2025-11-19: documented events and NatSpec comments
 - 2025-11-19: prepared contracts for testnet deployment
+- 2025-11-20: added helper views for frontend integration
