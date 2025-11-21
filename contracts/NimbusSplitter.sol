@@ -47,4 +47,9 @@ contract NimbusSplitter {
     function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a > b ? a : b;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
