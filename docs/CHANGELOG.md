@@ -230,3 +230,4 @@
 - 2025-11-19: prepared contracts for testnet deployment
 - 2025-11-20: added helper views for frontend integration
 - 2025-11-21: reviewed reentrancy protections on ETH transfers
+- 2025-11-23: added utility functions for gas-friendly reads
