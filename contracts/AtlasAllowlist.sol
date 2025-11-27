@@ -31,4 +31,9 @@ contract AtlasAllowlist {
         emit OwnershipTransferred(owner, newOwner);
         owner = newOwner;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
