@@ -36,4 +36,9 @@ contract UltraAllowlist {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
