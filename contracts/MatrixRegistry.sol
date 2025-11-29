@@ -39,4 +39,9 @@ contract MatrixRegistry {
     function gasLeftNow() external view returns (uint256) {
         return gasleft();
     }
+
+    /// @notice Converts days to seconds.
+    function daysToSeconds(uint256 numDays) external pure returns (uint256) {
+        return numDays * 1 days;
+    }
 }
