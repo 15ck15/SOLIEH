@@ -24,4 +24,9 @@ contract AmberRegistry {
         ownerOf[key] = to;
         emit Transferred(key, msg.sender, to);
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
