@@ -78,4 +78,9 @@ contract KrakenAuction {
     function isContractAddress(address account) external view returns (bool) {
         return account.code.length > 0;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
