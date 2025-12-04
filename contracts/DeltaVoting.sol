@@ -41,4 +41,9 @@ contract DeltaVoting {
     function proposalCount() external view returns (uint256) {
         return proposals.length;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
