@@ -239,3 +239,4 @@
 - 2025-12-03: prepared contracts for testnet deployment
 - 2025-12-04: prepared contracts for testnet deployment
 - 2025-12-05: added utility functions for gas-friendly reads
+- 2025-12-05: added helper views for frontend integration
