@@ -242,3 +242,4 @@
 - 2025-12-05: added helper views for frontend integration
 - 2025-12-07: tightened require messages across contracts
 - 2025-12-08: documented events and NatSpec comments
+- 2025-12-08: added libraries for shared math helpers
