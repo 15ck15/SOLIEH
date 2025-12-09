@@ -243,3 +243,4 @@
 - 2025-12-07: tightened require messages across contracts
 - 2025-12-08: documented events and NatSpec comments
 - 2025-12-08: added libraries for shared math helpers
+- 2025-12-09: reviewed access control on privileged functions
