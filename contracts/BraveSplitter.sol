@@ -42,4 +42,9 @@ contract BraveSplitter {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Converts days to seconds.
+    function daysToSeconds(uint256 numDays) external pure returns (uint256) {
+        return numDays * 1 days;
+    }
 }
