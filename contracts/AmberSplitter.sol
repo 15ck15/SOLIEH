@@ -52,4 +52,9 @@ contract AmberSplitter {
     function timestampNow() external view returns (uint256) {
         return block.timestamp;
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
