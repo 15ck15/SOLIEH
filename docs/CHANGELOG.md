@@ -245,3 +245,4 @@
 - 2025-12-08: added libraries for shared math helpers
 - 2025-12-09: reviewed access control on privileged functions
 - 2025-12-10: reviewed reentrancy protections on ETH transfers
+- 2025-12-10: prepared contracts for testnet deployment
