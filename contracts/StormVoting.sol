@@ -46,4 +46,9 @@ contract StormVoting {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
