@@ -68,4 +68,9 @@ contract BoldVesting {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the smaller of two values.
+    function minOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a < b ? a : b;
+    }
 }
