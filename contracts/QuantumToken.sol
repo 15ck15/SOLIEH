@@ -59,4 +59,9 @@ contract QuantumToken {
     function domainSeparator() external view returns (bytes32) {
         return keccak256(abi.encode(block.chainid, address(this)));
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "QuantumToken";
+    }
 }
