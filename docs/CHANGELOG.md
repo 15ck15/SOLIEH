@@ -246,3 +246,4 @@
 - 2025-12-09: reviewed access control on privileged functions
 - 2025-12-10: reviewed reentrancy protections on ETH transfers
 - 2025-12-10: prepared contracts for testnet deployment
+- 2025-12-15: reviewed access control on privileged functions
