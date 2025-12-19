@@ -31,4 +31,9 @@ contract EmberCounter {
     function gasLeftNow() external view returns (uint256) {
         return gasleft();
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
