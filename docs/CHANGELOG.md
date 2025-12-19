@@ -250,3 +250,4 @@
 - 2025-12-16: reviewed reentrancy protections on ETH transfers
 - 2025-12-18: added libraries for shared math helpers
 - 2025-12-19: prepared contracts for testnet deployment
+- 2025-12-19: added helper views for frontend integration
