@@ -21,4 +21,9 @@ contract GammaCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
