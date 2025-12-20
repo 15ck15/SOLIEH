@@ -32,4 +32,9 @@ contract DragonSplitter {
         require(okA && okB, "transfer failed");
         emit Distributed(toA, toB);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "DragonSplitter";
+    }
 }
