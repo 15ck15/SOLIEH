@@ -254,3 +254,4 @@
 - 2025-12-19: prepared contracts for testnet deployment
 - 2025-12-20: tightened require messages across contracts
 - 2025-12-22: added libraries for shared math helpers
+- 2025-12-22: added utility functions for gas-friendly reads
