@@ -256,3 +256,4 @@
 - 2025-12-22: added libraries for shared math helpers
 - 2025-12-22: added utility functions for gas-friendly reads
 - 2025-12-22: cleaned up naming for consistency
+- 2025-12-23: prepared contracts for testnet deployment
