@@ -257,3 +257,4 @@
 - 2025-12-22: added utility functions for gas-friendly reads
 - 2025-12-22: cleaned up naming for consistency
 - 2025-12-23: prepared contracts for testnet deployment
+- 2025-12-24: reviewed access control on privileged functions
