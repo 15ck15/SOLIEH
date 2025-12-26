@@ -69,4 +69,9 @@ contract NobleFaucet {
     function contractName() external pure returns (string memory) {
         return "NobleFaucet";
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
