@@ -52,4 +52,9 @@ contract QuantumSplitter {
     function chainId() external view returns (uint256) {
         return block.chainid;
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
