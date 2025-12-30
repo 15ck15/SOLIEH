@@ -51,4 +51,9 @@ contract MatrixCounter {
     function contractName() external pure returns (string memory) {
         return "MatrixCounter";
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
