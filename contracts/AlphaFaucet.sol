@@ -69,4 +69,9 @@ contract AlphaFaucet {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Returns the smaller of two values.
+    function minOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a < b ? a : b;
+    }
 }
