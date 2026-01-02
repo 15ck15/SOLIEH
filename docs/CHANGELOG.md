@@ -265,3 +265,4 @@
 - 2025-12-29: tightened require messages across contracts
 - 2025-12-31: prepared contracts for testnet deployment
 - 2026-01-01: prepared contracts for testnet deployment
+- 2026-01-02: prepared contracts for testnet deployment
