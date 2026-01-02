@@ -61,4 +61,9 @@ contract StellarAllowlist {
     function domainSeparator() external view returns (bytes32) {
         return keccak256(abi.encode(block.chainid, address(this)));
     }
+
+    /// @notice Returns the larger of two values.
+    function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a > b ? a : b;
+    }
 }
