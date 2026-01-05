@@ -268,3 +268,4 @@
 - 2026-01-02: prepared contracts for testnet deployment
 - 2026-01-02: prepared contracts for testnet deployment
 - 2026-01-03: cleaned up naming for consistency
+- 2026-01-05: extended interfaces to cover public API
