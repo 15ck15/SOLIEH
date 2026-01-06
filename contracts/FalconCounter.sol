@@ -21,4 +21,9 @@ contract FalconCounter {
         count -= 1;
         emit CountChanged(count);
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
