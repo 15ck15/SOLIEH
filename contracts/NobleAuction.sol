@@ -68,4 +68,9 @@ contract NobleAuction {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "NobleAuction";
+    }
 }
