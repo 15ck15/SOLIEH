@@ -272,3 +272,4 @@
 - 2026-01-06: extended interfaces to cover public API
 - 2026-01-07: added libraries for shared math helpers
 - 2026-01-08: added libraries for shared math helpers
+- 2026-01-08: documented events and NatSpec comments
