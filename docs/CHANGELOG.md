@@ -274,3 +274,4 @@
 - 2026-01-08: added libraries for shared math helpers
 - 2026-01-08: documented events and NatSpec comments
 - 2026-01-09: reviewed access control on privileged functions
+- 2026-01-09: cleaned up naming for consistency
