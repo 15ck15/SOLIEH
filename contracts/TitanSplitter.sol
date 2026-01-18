@@ -42,4 +42,9 @@ contract TitanSplitter {
     function contractName() external pure returns (string memory) {
         return "TitanSplitter";
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
