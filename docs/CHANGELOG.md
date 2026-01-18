@@ -278,3 +278,4 @@
 - 2026-01-12: added libraries for shared math helpers
 - 2026-01-14: added libraries for shared math helpers
 - 2026-01-14: reviewed reentrancy protections on ETH transfers
+- 2026-01-18: cleaned up naming for consistency
