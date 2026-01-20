@@ -63,4 +63,9 @@ contract ThunderAuction {
     function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
         return (block.number, block.timestamp);
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
