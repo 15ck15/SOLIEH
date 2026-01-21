@@ -44,4 +44,9 @@ contract VegaRegistry {
     function contractName() external pure returns (string memory) {
         return "VegaRegistry";
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
