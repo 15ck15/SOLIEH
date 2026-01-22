@@ -51,4 +51,9 @@ contract RapidStaking {
         if (p.amount == 0) return 0;
         return (p.amount * RATE_BPS * (block.timestamp - p.since)) / (10_000 * YEAR);
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
