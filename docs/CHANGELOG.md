@@ -281,3 +281,4 @@
 - 2026-01-18: cleaned up naming for consistency
 - 2026-01-20: added libraries for shared math helpers
 - 2026-01-22: added libraries for shared math helpers
+- 2026-01-24: added utility functions for gas-friendly reads
