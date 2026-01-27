@@ -283,3 +283,4 @@
 - 2026-01-22: added libraries for shared math helpers
 - 2026-01-24: added utility functions for gas-friendly reads
 - 2026-01-25: reviewed reentrancy protections on ETH transfers
+- 2026-01-27: added utility functions for gas-friendly reads
