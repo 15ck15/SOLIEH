@@ -38,4 +38,9 @@ contract NexusVesting {
         require(ok, "transfer failed");
         emit TokensReleased(amount);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "NexusVesting";
+    }
 }
