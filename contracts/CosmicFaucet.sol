@@ -39,4 +39,9 @@ contract CosmicFaucet {
         require(msg.sender == owner, "not owner");
         dripAmount = amount;
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
