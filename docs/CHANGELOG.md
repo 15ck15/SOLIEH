@@ -288,3 +288,4 @@
 - 2026-01-29: cleaned up naming for consistency
 - 2026-01-29: reviewed reentrancy protections on ETH transfers
 - 2026-01-30: reviewed access control on privileged functions
+- 2026-02-01: cleaned up naming for consistency
