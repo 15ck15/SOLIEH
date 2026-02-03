@@ -71,4 +71,9 @@ contract DragonStaking {
     function chainId() external view returns (uint256) {
         return block.chainid;
     }
+
+    /// @notice Hashes a text label with keccak256.
+    function hashLabel(string calldata label) external pure returns (bytes32) {
+        return keccak256(bytes(label));
+    }
 }
