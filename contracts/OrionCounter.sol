@@ -26,4 +26,9 @@ contract OrionCounter {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
