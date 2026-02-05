@@ -293,3 +293,4 @@
 - 2026-02-03: tightened require messages across contracts
 - 2026-02-04: added helper views for frontend integration
 - 2026-02-05: added libraries for shared math helpers
+- 2026-02-05: added helper views for frontend integration
