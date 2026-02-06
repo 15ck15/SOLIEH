@@ -56,4 +56,9 @@ contract GoldenStaking {
     function contractName() external pure returns (string memory) {
         return "GoldenStaking";
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
