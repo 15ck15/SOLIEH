@@ -84,4 +84,9 @@ contract CrystalFaucet {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
