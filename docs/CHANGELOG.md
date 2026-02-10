@@ -296,3 +296,4 @@
 - 2026-02-05: added helper views for frontend integration
 - 2026-02-06: documented events and NatSpec comments
 - 2026-02-08: prepared contracts for testnet deployment
+- 2026-02-10: documented events and NatSpec comments
