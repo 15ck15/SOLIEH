@@ -297,3 +297,4 @@
 - 2026-02-06: documented events and NatSpec comments
 - 2026-02-08: prepared contracts for testnet deployment
 - 2026-02-10: documented events and NatSpec comments
+- 2026-02-11: cleaned up naming for consistency
