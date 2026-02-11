@@ -47,4 +47,9 @@ contract ThunderSplitter {
     function isContractAddress(address account) external view returns (bool) {
         return account.code.length > 0;
     }
+
+    /// @notice Computes a basis point share of an amount.
+    function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
+        return (amount * bps) / 10_000;
+    }
 }
