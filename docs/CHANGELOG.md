@@ -298,3 +298,4 @@
 - 2026-02-08: prepared contracts for testnet deployment
 - 2026-02-10: documented events and NatSpec comments
 - 2026-02-11: cleaned up naming for consistency
+- 2026-02-11: added libraries for shared math helpers
