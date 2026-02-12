@@ -42,4 +42,9 @@ contract SphinxSplitter {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
