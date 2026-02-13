@@ -52,4 +52,9 @@ contract MatrixSplitter {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Returns the larger of two values.
+    function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a > b ? a : b;
+    }
 }
