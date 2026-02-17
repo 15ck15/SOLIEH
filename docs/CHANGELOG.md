@@ -302,3 +302,4 @@
 - 2026-02-12: cleaned up naming for consistency
 - 2026-02-15: extended interfaces to cover public API
 - 2026-02-17: added utility functions for gas-friendly reads
+- 2026-02-17: prepared contracts for testnet deployment
