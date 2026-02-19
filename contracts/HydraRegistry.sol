@@ -34,4 +34,9 @@ contract HydraRegistry {
     function maxOf(uint256 a, uint256 b) external pure returns (uint256) {
         return a > b ? a : b;
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
