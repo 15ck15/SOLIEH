@@ -306,3 +306,4 @@
 - 2026-02-17: extended interfaces to cover public API
 - 2026-02-19: reviewed reentrancy protections on ETH transfers
 - 2026-02-20: added utility functions for gas-friendly reads
+- 2026-02-20: added helper views for frontend integration
