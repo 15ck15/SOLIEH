@@ -71,4 +71,9 @@ contract VertexVoting {
     function contractName() external pure returns (string memory) {
         return "VertexVoting";
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
