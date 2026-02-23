@@ -311,3 +311,4 @@
 - 2026-02-21: extended interfaces to cover public API
 - 2026-02-23: documented events and NatSpec comments
 - 2026-02-23: cleaned up naming for consistency
+- 2026-02-23: cleaned up naming for consistency
