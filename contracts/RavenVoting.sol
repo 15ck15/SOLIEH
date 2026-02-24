@@ -41,4 +41,9 @@ contract RavenVoting {
     function proposalCount() external view returns (uint256) {
         return proposals.length;
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
