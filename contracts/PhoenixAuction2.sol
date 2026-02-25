@@ -48,4 +48,9 @@ contract PhoenixAuction2 {
         require(ok, "transfer failed");
         emit AuctionEnded(highestBidder, highestBid);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "PhoenixAuction2";
+    }
 }
