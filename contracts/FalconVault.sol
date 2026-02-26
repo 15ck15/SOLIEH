@@ -54,4 +54,9 @@ contract FalconVault {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
