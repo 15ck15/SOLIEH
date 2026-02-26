@@ -314,3 +314,4 @@
 - 2026-02-23: cleaned up naming for consistency
 - 2026-02-24: extended interfaces to cover public API
 - 2026-02-25: added libraries for shared math helpers
+- 2026-02-26: added utility functions for gas-friendly reads
