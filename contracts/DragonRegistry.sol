@@ -34,4 +34,9 @@ contract DragonRegistry {
     function isContractAddress(address account) external view returns (bool) {
         return account.code.length > 0;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "DragonRegistry";
+    }
 }
