@@ -315,3 +315,4 @@
 - 2026-02-24: extended interfaces to cover public API
 - 2026-02-25: added libraries for shared math helpers
 - 2026-02-26: added utility functions for gas-friendly reads
+- 2026-02-27: tightened require messages across contracts
