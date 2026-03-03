@@ -59,4 +59,9 @@ contract BoldToken {
     function gasLeftNow() external view returns (uint256) {
         return gasleft();
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
