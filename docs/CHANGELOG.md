@@ -319,3 +319,4 @@
 - 2026-03-02: cleaned up naming for consistency
 - 2026-03-02: tightened require messages across contracts
 - 2026-03-02: documented events and NatSpec comments
+- 2026-03-03: reviewed reentrancy protections on ETH transfers
