@@ -58,4 +58,9 @@ contract EmberAuction {
     function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
         return (amount * bps) / 10_000;
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
