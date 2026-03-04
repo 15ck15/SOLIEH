@@ -322,3 +322,4 @@
 - 2026-03-03: reviewed reentrancy protections on ETH transfers
 - 2026-03-03: tightened require messages across contracts
 - 2026-03-04: added utility functions for gas-friendly reads
+- 2026-03-04: cleaned up naming for consistency
