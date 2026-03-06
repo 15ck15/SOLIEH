@@ -325,3 +325,4 @@
 - 2026-03-04: cleaned up naming for consistency
 - 2026-03-05: cleaned up naming for consistency
 - 2026-03-05: documented events and NatSpec comments
+- 2026-03-06: reviewed access control on privileged functions
