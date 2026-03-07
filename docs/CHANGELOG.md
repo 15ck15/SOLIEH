@@ -328,3 +328,4 @@
 - 2026-03-06: reviewed access control on privileged functions
 - 2026-03-06: added libraries for shared math helpers
 - 2026-03-07: added utility functions for gas-friendly reads
+- 2026-03-07: added utility functions for gas-friendly reads
