@@ -331,3 +331,4 @@
 - 2026-03-07: added utility functions for gas-friendly reads
 - 2026-03-09: reviewed access control on privileged functions
 - 2026-03-09: reviewed reentrancy protections on ETH transfers
+- 2026-03-09: added helper views for frontend integration
