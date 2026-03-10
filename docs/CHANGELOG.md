@@ -332,3 +332,4 @@
 - 2026-03-09: reviewed access control on privileged functions
 - 2026-03-09: reviewed reentrancy protections on ETH transfers
 - 2026-03-09: added helper views for frontend integration
+- 2026-03-10: added libraries for shared math helpers
