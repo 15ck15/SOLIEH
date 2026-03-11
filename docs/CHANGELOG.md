@@ -333,3 +333,4 @@
 - 2026-03-09: reviewed reentrancy protections on ETH transfers
 - 2026-03-09: added helper views for frontend integration
 - 2026-03-10: added libraries for shared math helpers
+- 2026-03-11: cleaned up naming for consistency
