@@ -39,4 +39,9 @@ contract VectorVault {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
