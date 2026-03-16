@@ -337,3 +337,4 @@
 - 2026-03-11: added helper views for frontend integration
 - 2026-03-12: documented events and NatSpec comments
 - 2026-03-16: cleaned up naming for consistency
+- 2026-03-16: prepared contracts for testnet deployment
