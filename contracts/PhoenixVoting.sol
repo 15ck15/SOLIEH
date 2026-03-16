@@ -41,4 +41,9 @@ contract PhoenixVoting {
     function proposalCount() external view returns (uint256) {
         return proposals.length;
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
