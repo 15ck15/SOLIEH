@@ -41,4 +41,9 @@ contract IronAllowlist {
     function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
         return (block.number, block.timestamp);
     }
+
+    /// @notice Converts days to seconds.
+    function daysToSeconds(uint256 numDays) external pure returns (uint256) {
+        return numDays * 1 days;
+    }
 }
