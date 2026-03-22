@@ -340,3 +340,4 @@
 - 2026-03-16: prepared contracts for testnet deployment
 - 2026-03-19: tightened require messages across contracts
 - 2026-03-21: cleaned up naming for consistency
+- 2026-03-22: prepared contracts for testnet deployment
