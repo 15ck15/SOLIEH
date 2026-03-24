@@ -44,4 +44,9 @@ contract VectorVault {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Computes a basis point share of an amount.
+    function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
+        return (amount * bps) / 10_000;
+    }
 }
