@@ -61,4 +61,9 @@ contract RavenAllowlist {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
