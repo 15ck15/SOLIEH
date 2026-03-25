@@ -78,4 +78,9 @@ contract PrimeAuction {
     function selfBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "PrimeAuction";
+    }
 }
