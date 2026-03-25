@@ -342,3 +342,4 @@
 - 2026-03-21: cleaned up naming for consistency
 - 2026-03-22: prepared contracts for testnet deployment
 - 2026-03-23: documented events and NatSpec comments
+- 2026-03-25: extended interfaces to cover public API
