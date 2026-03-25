@@ -34,4 +34,9 @@ contract QuantumVault {
         require(ok, "transfer failed");
         emit Withdrawn(msg.sender, amount);
     }
+
+    /// @notice Returns the current block timestamp.
+    function timestampNow() external view returns (uint256) {
+        return block.timestamp;
+    }
 }
