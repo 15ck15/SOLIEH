@@ -345,3 +345,4 @@
 - 2026-03-25: extended interfaces to cover public API
 - 2026-03-25: added libraries for shared math helpers
 - 2026-03-25: added helper views for frontend integration
+- 2026-03-26: prepared contracts for testnet deployment
