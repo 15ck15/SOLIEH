@@ -346,3 +346,4 @@
 - 2026-03-25: added libraries for shared math helpers
 - 2026-03-25: added helper views for frontend integration
 - 2026-03-26: prepared contracts for testnet deployment
+- 2026-03-27: tightened require messages across contracts
