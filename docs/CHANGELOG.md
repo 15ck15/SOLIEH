@@ -348,3 +348,4 @@
 - 2026-03-26: prepared contracts for testnet deployment
 - 2026-03-27: tightened require messages across contracts
 - 2026-03-28: added helper views for frontend integration
+- 2026-03-30: documented events and NatSpec comments
