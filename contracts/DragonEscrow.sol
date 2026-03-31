@@ -46,4 +46,9 @@ contract DragonEscrow {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns a chain and contract specific domain separator.
+    function domainSeparator() external view returns (bytes32) {
+        return keccak256(abi.encode(block.chainid, address(this)));
+    }
 }
