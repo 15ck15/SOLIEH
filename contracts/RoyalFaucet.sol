@@ -39,4 +39,9 @@ contract RoyalFaucet {
         require(msg.sender == owner, "not owner");
         dripAmount = amount;
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
