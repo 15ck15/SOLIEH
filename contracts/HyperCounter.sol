@@ -36,4 +36,9 @@ contract HyperCounter {
     function chainId() external view returns (uint256) {
         return block.chainid;
     }
+
+    /// @notice Returns the maximum uint256 value.
+    function maxUint() external pure returns (uint256) {
+        return type(uint256).max;
+    }
 }
