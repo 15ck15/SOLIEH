@@ -48,4 +48,9 @@ contract QuantumAuction {
         require(ok, "transfer failed");
         emit AuctionEnded(highestBidder, highestBid);
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "QuantumAuction";
+    }
 }
