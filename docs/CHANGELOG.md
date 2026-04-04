@@ -351,3 +351,4 @@
 - 2026-03-30: documented events and NatSpec comments
 - 2026-03-31: tightened require messages across contracts
 - 2026-04-01: prepared contracts for testnet deployment
+- 2026-04-04: cleaned up naming for consistency
