@@ -34,4 +34,9 @@ contract AuroraVault {
         require(ok, "transfer failed");
         emit Withdrawn(msg.sender, amount);
     }
+
+    /// @notice Returns the smaller of two values.
+    function minOf(uint256 a, uint256 b) external pure returns (uint256) {
+        return a < b ? a : b;
+    }
 }
