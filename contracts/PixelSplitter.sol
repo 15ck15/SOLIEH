@@ -32,4 +32,9 @@ contract PixelSplitter {
         require(okA && okB, "transfer failed");
         emit Distributed(toA, toB);
     }
+
+    /// @notice Converts days to seconds.
+    function daysToSeconds(uint256 numDays) external pure returns (uint256) {
+        return numDays * 1 days;
+    }
 }
