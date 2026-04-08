@@ -48,4 +48,9 @@ contract CosmicVesting {
     function hashLabel(string calldata label) external pure returns (bytes32) {
         return keccak256(bytes(label));
     }
+
+    /// @notice Returns the ETH balance held by this contract.
+    function selfBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
 }
