@@ -353,3 +353,4 @@
 - 2026-04-01: prepared contracts for testnet deployment
 - 2026-04-04: cleaned up naming for consistency
 - 2026-04-06: reviewed access control on privileged functions
+- 2026-04-14: added libraries for shared math helpers
