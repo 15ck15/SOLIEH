@@ -356,3 +356,4 @@
 - 2026-04-14: added libraries for shared math helpers
 - 2026-04-15: tightened require messages across contracts
 - 2026-04-16: prepared contracts for testnet deployment
+- 2026-04-16: extended interfaces to cover public API
