@@ -72,4 +72,9 @@ contract FrostSplitter {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "FrostSplitter";
+    }
 }
