@@ -41,4 +41,9 @@ contract SableAllowlist {
     function version() external pure returns (string memory) {
         return "1.0.0";
     }
+
+    /// @notice Returns the current chain id.
+    function chainId() external view returns (uint256) {
+        return block.chainid;
+    }
 }
