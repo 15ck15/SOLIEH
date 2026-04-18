@@ -51,4 +51,9 @@ contract GoldenEscrow {
     function timestampNow() external view returns (uint256) {
         return block.timestamp;
     }
+
+    /// @notice Returns the gas remaining for this call.
+    function gasLeftNow() external view returns (uint256) {
+        return gasleft();
+    }
 }
