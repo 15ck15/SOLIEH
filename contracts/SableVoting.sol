@@ -46,4 +46,9 @@ contract SableVoting {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
