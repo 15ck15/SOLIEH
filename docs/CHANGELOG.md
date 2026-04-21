@@ -359,3 +359,4 @@
 - 2026-04-16: extended interfaces to cover public API
 - 2026-04-17: documented events and NatSpec comments
 - 2026-04-20: tightened require messages across contracts
+- 2026-04-21: added utility functions for gas-friendly reads
