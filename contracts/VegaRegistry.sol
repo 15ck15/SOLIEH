@@ -59,4 +59,9 @@ contract VegaRegistry {
     function isContractAddress(address account) external view returns (bool) {
         return account.code.length > 0;
     }
+
+    /// @notice Returns the current block number and timestamp.
+    function blockInfo() external view returns (uint256 blockNumber, uint256 blockTimestamp) {
+        return (block.number, block.timestamp);
+    }
 }
