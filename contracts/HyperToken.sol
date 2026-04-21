@@ -69,4 +69,9 @@ contract HyperToken {
     function maxUint() external pure returns (uint256) {
         return type(uint256).max;
     }
+
+    /// @notice Returns the contract version.
+    function version() external pure returns (string memory) {
+        return "1.0.0";
+    }
 }
