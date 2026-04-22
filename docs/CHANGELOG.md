@@ -360,3 +360,4 @@
 - 2026-04-17: documented events and NatSpec comments
 - 2026-04-20: tightened require messages across contracts
 - 2026-04-21: added utility functions for gas-friendly reads
+- 2026-04-22: documented events and NatSpec comments
