@@ -363,3 +363,4 @@
 - 2026-04-22: documented events and NatSpec comments
 - 2026-04-22: tightened require messages across contracts
 - 2026-04-23: documented events and NatSpec comments
+- 2026-04-23: extended interfaces to cover public API
