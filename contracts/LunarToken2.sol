@@ -59,4 +59,9 @@ contract LunarToken2 {
     function percentOf(uint256 amount, uint256 bps) external pure returns (uint256) {
         return (amount * bps) / 10_000;
     }
+
+    /// @notice Returns the contract name.
+    function contractName() external pure returns (string memory) {
+        return "LunarToken2";
+    }
 }
