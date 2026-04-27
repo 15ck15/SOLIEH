@@ -368,3 +368,4 @@
 - 2026-04-24: added helper views for frontend integration
 - 2026-04-25: cleaned up naming for consistency
 - 2026-04-27: extended interfaces to cover public API
+- 2026-04-27: reviewed reentrancy protections on ETH transfers
