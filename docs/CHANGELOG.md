@@ -369,3 +369,4 @@
 - 2026-04-25: cleaned up naming for consistency
 - 2026-04-27: extended interfaces to cover public API
 - 2026-04-27: reviewed reentrancy protections on ETH transfers
+- 2026-04-28: reviewed reentrancy protections on ETH transfers
