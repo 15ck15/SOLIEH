@@ -371,3 +371,4 @@
 - 2026-04-27: reviewed reentrancy protections on ETH transfers
 - 2026-04-28: reviewed reentrancy protections on ETH transfers
 - 2026-04-28: reviewed access control on privileged functions
+- 2026-04-29: prepared contracts for testnet deployment
