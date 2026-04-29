@@ -59,4 +59,9 @@ contract HyperVault {
     function daysToSeconds(uint256 numDays) external pure returns (uint256) {
         return numDays * 1 days;
     }
+
+    /// @notice Checks whether an address holds contract code.
+    function isContractAddress(address account) external view returns (bool) {
+        return account.code.length > 0;
+    }
 }
