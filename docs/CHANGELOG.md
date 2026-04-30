@@ -372,3 +372,4 @@
 - 2026-04-28: reviewed reentrancy protections on ETH transfers
 - 2026-04-28: reviewed access control on privileged functions
 - 2026-04-29: prepared contracts for testnet deployment
+- 2026-04-30: added utility functions for gas-friendly reads
